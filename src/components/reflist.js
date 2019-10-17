@@ -56,6 +56,26 @@ export const citations = [
     name: `who`,
     citation: `"Global Health Risks." World Health Organization, 2009.`,
     url: `https://www.who.int/healthinfo/global_burden_disease/GlobalHealthRisks_report_part2.pdf`
+  },
+  {
+    name: `nsdic`,
+    citation: `" Project to monitor regular melt conditions on the ice cover in Greenland from NSDIC (National Snow and Ice Data Center) Greenland Ice Sheet Today is produced by Ted Scambos, Julienne Stroeve, and Lora Koenig with support from NASA."`,
+    url: `https://nsidc.org/greenland-today/greenland-surface-melt-extent-interactive-chart/`
+  },
+  {
+    name: `PolarPortal`,
+    citation: `"Project to monitor present surface conditions on Greenland Snow Cover funded and supported by Dancea (Danish Cooperation for Environment in the Arctic) under the Danish Ministry for Energy, Utilities and Climate"`,
+    url: `http://polarportal.dk/en/greenland/surface-conditions/`
+  },
+  {
+    name: `GreenLandTweet`,
+    citation: `"Tweet on Twitter account handled by Danish Meteorological Institute and the Polar Project"`,
+    url:`https://twitter.com/greenlandicesmb/status/1156789601182375936`
+  },
+  {
+    name: `GreenLand2012`,
+    citation: `"Nghiem, S. V., Hall, D. K., Mote, T. L., Tedesco, M., Albert, M. R., Keegan, K., Shuman, C. A., DiGirolamo, N. E., and Neumann, G. ( 2012), The extreme melt across the Greenland ice sheet in 2012, Geophys. Res. Lett., 39, L20502, doi:10.1029/2012GL053611. "`,
+    url: `https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012GL053611`
   }
 ];
 const RefList = () => (

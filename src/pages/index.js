@@ -258,6 +258,31 @@ class Home extends Component {
               leading to food-and-water shortages as well as wildfires.
               <Cite name="natGeo" />
             </p>
+            <div css={figureWrapperStyle}>
+              <div>
+                <img src={'assets/GreenLand.png'} alt="Greenland Surface Melt Extent" />
+              </div>
+              <strong>
+                Figure 4<Cite name="nsdic" />
+              </strong>
+            </div>
+            <p>
+            July, 2019, witnessed an extraordinary melt event began on the Greenland 
+            ice sheet, and there are signs that about 60 percent of the expansive 
+            ice cover has seen detectable surface melting, including at higher 
+            elevations that only rarely see temperatures climb above freezing. 
+            July 31 was the biggest melt day since at least 2012, with about 56% percent 
+            of the ice sheet seeing at least 1 millimeter of melt at the surface, 
+            and more than 10 billion tons of ice lost to the ocean from surface melt.
+            <Cite name="GreenLandTweet" />
+            <Cite name="PolarPortal"/>
+            </p>
+            <p>
+            Studies have shown that ice melt periods like the one seen in 2012 
+            typically occur about every 250 years, so the fact that another one 
+            is taking place only a few years later could be a sign of how climate change 
+            is upping the odds of such events. <Cite name="GreenLand2012"/>
+            </p>
             <p>
               The changing climate will also impact our global health. A study
               by the World Health Organization estimated the effect of climate
