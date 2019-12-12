@@ -28,7 +28,6 @@
     "@emotion/core": "^10.0.22",
     "@reach/router": "^1.2.1",
     "@sentry/browser": "^5.0.0",
-    "axios": "^0.19.0",
     "chart.js": "^2.7.3",
     "modern-normalize": "^0.5.0",
     "prop-types": "^15.6.2",
@@ -42,6 +41,7 @@
     "react-static-plugin-reach-router": "^7.2.0",
     "react-static-plugin-sitemap": "^7.2.0",
     "react-static-plugin-source-filesystem": "^7.2.0",
+    "react-tooltip": "^3.11.1",
     "unitransform": "^1.0.5"
   },
   "devDependencies": {

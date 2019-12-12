@@ -87,7 +87,7 @@ const RefList = () => (
           transition: border 0.7s 0.8s, border-radius 0.7s 0.8s,
             background-color 0.7s 0.8s, box-shadow 0.7s 0.8s;
           border: 1px solid transparent;
-                      
+
           :target {
             border-color: ${redLight};
             border-color: ${redLight}44;
@@ -102,7 +102,7 @@ const RefList = () => (
         {x.citation}
         {` `}
         {x.url && (
-          <a href={x.url} rel="external noopener" target="_blank">
+          <a href={x.url} rel="external noopener noreferrer" target="_blank">
             More information
           </a>
         )}

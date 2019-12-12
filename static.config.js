@@ -41,7 +41,7 @@ const getTemp = async () => {
 
 const getCo2 = async () => {
   let { data: co2 } = await axios.get(
-    `http://scrippsco2.ucsd.edu/assets/data/atmospheric/merged_ice_core_mlo_spo/merged_ice_core_yearly.csv`
+    `https://scrippsco2.ucsd.edu/assets/data/atmospheric/merged_ice_core_mlo_spo/merged_ice_core_yearly.csv`
   );
 
   co2 = await csv({ noheader: true }).fromString(co2.replace(/".*"\n/g, ``));
