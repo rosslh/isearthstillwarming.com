@@ -349,7 +349,14 @@ class Home extends Component {
               food-and-water shortages as well as wildfires.
               <Cite name="natGeo" />
             </p>
-            <h2>Works Cited</h2>
+            <h2
+              css={css`
+                margin-top: 4%;
+                font-size: 1.2em;
+              `}
+            >
+              Works Cited
+            </h2>
             <RefList />
           </article>
         </ContentWrapper>
